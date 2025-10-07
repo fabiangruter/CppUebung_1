@@ -8,8 +8,7 @@
 
 using namespace std; 
 
-int main(int argc, char** argv) {
-    printf("Hello INF: %s asdf a %d asdf \n \n", "abc", 10);
-   
+int main() {
+    printf("%.2f\n", 3.0/4);   
     return 0;
 }

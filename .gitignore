@@ -1,32 +1,71 @@
-# Prerequisites
-*.d
+# =========================
+# NetBeans IDE Files
+# =========================
+nbproject/private/
+nbbuild/
+dist/
+build/
 
-# Compiled Object files
-*.slo
-*.lo
+# NetBeans project metadata
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+nbproject/Package-*.cfg
+nbproject/Package-*.mk
+
+# Ignore NetBeans local configuration files
+nbproject/private/
+nbproject/configurations.xml
+
+# =========================
+# Compiled Object Files
+# =========================
 *.o
 *.obj
+*.lo
+*.slo
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# =========================
+# Compiled Dynamic Libraries
+# =========================
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+# =========================
+# Compiled Static Libraries
+# =========================
 *.a
 *.lib
 
+# =========================
 # Executables
+# =========================
 *.exe
 *.out
 *.app
+
+# =========================
+# Debug / Profiling
+# =========================
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.stackdump
+
+# =========================
+# Editor / OS Files
+# =========================
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs and Temporary Files
+# =========================
+*.log
+*.tmp
+*.bak
